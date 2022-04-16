@@ -1,11 +1,11 @@
 import React from "react";
 
-function Resume() {
+function Portfolio() {
   return (
     <section>
-      <h1>Resume</h1>
+      <h1> Portfolio</h1>
     </section>
   );
 }
 
-export default Resume;
+export default Portfolio;
