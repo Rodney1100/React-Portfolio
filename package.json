@@ -1,6 +1,6 @@
 {
-  "homepage": "http://rodney1100.github.io/react-portfolio",
   "name": "react-portfolio",
+  "homepage": "http://rodney1100.github.io/react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
