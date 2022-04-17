@@ -1,18 +1,24 @@
+import React, { useState } from "react";
 import "./App.css";
 import About from "./components/AboutMe";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 import ContactForm from "./components/ContactForm";
+// import Footer from "./components/Footer";
 
 function App() {
+
+  const [contactSelected, setContactSelected] = useState(false);
   return (
     <div>
       <header>
         <Header></Header>
-        <Nav></Nav>
+        <Nav>
+          {/* contactSelected = {contactSelected}
+          setContactSelected={setContactSelected} */}
+        </Nav>
       </header>
       <main>
         <About></About>
@@ -21,7 +27,6 @@ function App() {
         <ContactForm></ContactForm>
       </main>
       <footer>
-        {/* <Footer></Footer> */}
       </footer>
     </div>
   );
